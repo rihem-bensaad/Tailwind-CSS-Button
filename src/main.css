@@ -28,5 +28,31 @@
     .btn-purple{
         @apply bg-purple-500;
     }
-   
+
+    /* Shadow buttons */
+    .primary-shadow {
+        @apply shadow-lg shadow-blue-500/40;
+    }
+    .dark-shadow {
+    @apply shadow-lg shadow-black/40;
+    }
+    .warning-shadow {
+        @apply shadow-lg shadow-orange-400/40
+    }
+    .success-shadow {
+    @apply shadow-lg shadow-green-500/40
+    }
+    .danger-shadow{
+
+        @apply shadow-lg shadow-red-500/40
+    }
+.purple-shadow {
+
+    @apply shadow-lg shadow-purple-500/40
+}
+.indigo-shadow {
+    @apply shadow-lg shadow-blue-500/40
+}
+
+
 }
