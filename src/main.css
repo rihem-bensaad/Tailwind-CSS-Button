@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .btn {
+        @apply inline-block text-white text-sm font-medium px-5 py-2 cursor-pointer border-0
+        capitalize;
+    }
+    .btn-primary{
+        @apply bg-blue-500
+    }
+    .btn-dark{
+        @apply bg-black;
+    }
+    .btn-warning{
+        @apply bg-orange-400
+    }
+    .btn-success{
+        @apply bg-green-600
+    }
+    .btn-danger{
+        @apply bg-red-500
+    }
+    .btn-indigo {
+    @apply bg-indigo-500;
+    }
+    .btn-purple{
+        @apply bg-purple-500;
+    }
+   
+}
