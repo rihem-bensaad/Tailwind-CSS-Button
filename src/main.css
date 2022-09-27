@@ -54,5 +54,36 @@
     @apply shadow-lg shadow-blue-500/40
 }
 
+/* ring classes */
+
+.primary-ring {
+    @apply focus:ring-2 ring-offset-2 ring-blue-500/50 transition-all;
+}
+
+.dark-ring {
+    @apply focus:ring-2 ring-offset-2 ring-black/60  transition-all;
+}
+.warning-ring {
+    @apply focus:ring-2 ring-offset-2 ring-orange-400/60 transition-all;
+}
+.success-ring {
+@apply focus:ring-2 ring-offset-2 ring-green-600/60 transition-all;
+
+}
+.danger-ring {
+    @apply focus:ring-2 ring-offset-2 ring-red-500/60 transition-all;
+
+}
+.purple-ring {
+    @apply focus:ring-2 ring-offset-2 ring-purple-500/60 transition-all;
+
+}
+.indigo-ring {
+    @apply focus:ring-2 ring-offset-2 ring-indigo-500/60 transition-all;
+
+}
+
+
+
 
 }
