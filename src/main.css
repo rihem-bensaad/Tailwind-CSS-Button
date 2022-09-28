@@ -94,27 +94,30 @@
 /* sweet buttons*/
 
 .sweet-primary {
-    @apply bg-transparent text-black border-[3px] border-black relative 
+    @apply bg-transparent text-black border-[3px] hover:bg-blue-500 border-black relative 
     before:absolute before:w-full before:h-full before:bottom-2 before:right-2
      before:bg-blue-500 before:-z-10 hover:before:bottom-0 hover:before:right-0
      before:transition-all hover:text-white duration-500 hover:border-blue-300
 }
 .sweet-dark {
-    @apply bg-transparent text-white border-[3px] border-black relative 
+
+@apply bg-transparent text-white border-[3px] hover:bg-black border-black relative
     before:absolute before:w-full before:h-full before:bottom-2 before:right-2 
     before:bg-black before:-z-10 hover:before:bottom-0 hover:before:right-0 
     before:transition-all hover:text-white duration-500 hover:border-black/70
 
 }
 .sweet-warning {
-    @apply bg-transparent text-black border-[3px] border-black relative
+@apply bg-transparent text-black border-[3px] hover:bg-orange-400 border-black relative
+
      before:absolute before:w-full before:h-full before:bottom-2 before:right-2
       before:bg-orange-400 before:-z-10 hover:before:bottom-0 hover:before:right-0 
       before:transition-all hover:text-white duration-500 hover:border-orange-300
 }
 
 .sweet-success {
-    @apply bg-transparent text-black border-[3px] border-black relative 
+@apply bg-transparent text-black border-[3px] hover:bg-green-600 border-black relative
+
     before:absolute before:w-full before:h-full before:bottom-2 before:right-2 
     before:bg-green-600 before:-z-10 hover:before:bottom-0 hover:before:right-0
      before:transition-all hover:text-white duration-500 hover:border-green-300
@@ -122,14 +125,18 @@
 
 .sweet-danger {
 
-    @apply bg-transparent text-black border-[3px] border-black relative 
+@apply bg-transparent text-black border-[3px] hover:bg-red-500 border-black relative
+
     before:absolute before:w-full before:h-full before:bottom-2 before:right-2
     before:bg-red-500 before:-z-10 hover:before:bottom-0 hover:before:right-0 
     before:transition-all  hover:text-white duration-500 hover:border-red-300
 }
+
 .sweet-indigo {
 
-    @apply bg-transparent text-black border-[3px] border-black relative 
+@apply bg-transparent text-black border-[3px]  hover:bg-blue-500
+ border-black relative
+
     before:absolute before:w-full before:h-full before:bottom-2 before:right-2 
     before:bg-blue-500 before:-z-10 hover:before:bottom-0 hover:before:right-0
      before:transition-all hover:text-white duration-500 hover:border-blue-300
@@ -137,7 +144,9 @@
 
     .sweet-purple{
 
-    @apply bg-transparent text-black border-[3px] border-black relative
+@apply bg-transparent text-black border-[3px] hover:bg-purple-500
+ border-black relative
+
     before:absolute before:w-full before:h-full before:bottom-2 before:right-2
     before:bg-purple-500 before:-z-10 hover:before:bottom-0 hover:before:right-0 
     before:transition-all hover:text-white duration-500 hover:border-purple-300
