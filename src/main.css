@@ -151,6 +151,28 @@
     before:bg-purple-500 before:-z-10 hover:before:bottom-0 hover:before:right-0 
     before:transition-all hover:text-white duration-500 hover:border-purple-300
 }
+/* Outline buttons*/
+.outline-primary {
+    @apply bg-transparent border-[1.5px] border-blue-500 text-blue-500;
+}
+.outline-dark {
+    @apply bg-transparent border-[1.5px] border-black text-black;
+}
+.outline-warning {
+    @apply bg-transparent border-[1.5px] border-orange-400 text-orange-400;
+}
+.outline-success {
+    @apply bg-transparent border-[1.5px] border-green-600 text-green-600;
+}
+.outline-purple {
+    @apply bg-transparent border-[1.5px] border-purple-500 text-purple-500;
+}
 
+.outline-danger { 
+    @apply bg-transparent border-[1.5px] border-red-500 text-red-500;
+}
+.outline-indigo {
+    @apply bg-transparent border-[1.5px] border-indigo-500 text-indigo-500;
+}
 
 }
