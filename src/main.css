@@ -175,10 +175,11 @@
     @apply bg-transparent border-[1.5px] border-indigo-500 text-indigo-500;
 }
 
-/* smart buttons*/
-.smart-primary {
+/* Smart buttons*/
 
-    @apply bg-blue-100 text-blue-700;
+
+.smart-primary {
+@apply bg-blue-100 text-blue-700;
 }
 .smart-dark {
 @apply bg-gray-100 text-gray-700;
@@ -202,6 +203,44 @@
 .smart-indigo {
 @apply bg-indigo-100 text-indigo-700;
 
+}
+
+/*gradient buttons*/
+
+.gradient-primary {
+
+@apply bg-gradient-to-r from-blue-500  to-blue-100;
+
+}
+.gradient-dark {
+
+@apply bg-gradient-to-r from-black to-gray-100;
+
+
+}
+.gradient-warning {
+
+@apply bg-gradient-to-r from-orange-400 to-orange-100;
+
+
+}
+.gradient-success {
+
+@apply bg-gradient-to-r from-green-600 to-green-200;
+
+
+}
+.gradient-purple {
+
+@apply bg-gradient-to-r from-purple-500 to-purple-100;
+
+}
+
+.gradient-danger {
+@apply bg-gradient-to-r from-red-500 to-red-100;
+}
+.gradient-indigo {
+@apply bg-gradient-to-r from-indigo-500 to-indigo-100;
 }
 
 
