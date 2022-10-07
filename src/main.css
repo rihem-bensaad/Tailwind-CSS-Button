@@ -94,9 +94,9 @@
     before:bg-white/20 before:scale-0 hover:before:scale-100 before:transition-all before:rounded-full hover:before:rounded-none;
 }
 
-/* sweet buttons*/
+/*sweet buttons*/
 
-/* .sweet-primary {
+ .sweet-primary {
     @apply bg-transparent text-black border-[3px] hover:bg-blue-500 border-black relative 
     before:absolute before:w-full before:h-full before:bottom-2 before:right-2
      before:bg-blue-500 before:-z-10 hover:before:bottom-0 hover:before:right-0
@@ -153,7 +153,7 @@
     before:absolute before:w-full before:h-full before:bottom-2 before:right-2
     before:bg-purple-500 before:-z-10 hover:before:bottom-0 hover:before:right-0 
     before:transition-all hover:text-white duration-500 hover:border-purple-300
-} */
+}
 /* Outline buttons*/
 .outline-primary {
     @apply bg-transparent border-[1.5px] border-blue-500 text-blue-500;
