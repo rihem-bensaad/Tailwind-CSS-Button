@@ -254,5 +254,12 @@
     @apply block w-5 h-5 rounded-full border-[3px] border-t-black/10 border-r-black/10 animate-spin;
     
     }
+ 
+    /*Block buttons*/
+ 
+.btn-block{
+    @apply block w-full  text-base py-3;
+    
+    }
     
 }
