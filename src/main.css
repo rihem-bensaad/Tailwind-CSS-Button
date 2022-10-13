@@ -247,4 +247,12 @@
 }
 
 
+/*loading buttons*/
+
+.spinner {
+
+    @apply block w-5 h-5 rounded-full border-[3px] border-t-black/10 border-r-black/10 animate-spin;
+    
+    }
+    
 }
