@@ -8,5 +8,19 @@
   },
   "scripts": {
     "dev": "vite"
-  }
+  },
+  "name": "tailwind-css-button",
+  "version": "1.0.0",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rihem-bensaad/Tailwind-CSS-Button.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rihem-bensaad/Tailwind-CSS-Button/issues"
+  },
+  "homepage": "https://github.com/rihem-bensaad/Tailwind-CSS-Button#readme",
+  "description": ""
 }
