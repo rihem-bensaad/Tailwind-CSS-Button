@@ -16,3 +16,19 @@
 .alert-primary{
     @apply bg-blue-100 text-blue-700 border border-blue-200
 }
+
+/* beautify alerts*/
+
+
+.beautify-success{
+@apply border-l-[5px] border-l-green-600 rounded-tl-none rounded-bl-none !important;
+}
+.beautify-danger{
+    @apply border-l-[5px] border-l-red-600 rounded-tl-none rounded-bl-none !important;
+    }
+    .beautify-warning{
+        @apply border-l-[5px] border-l-orange-600 rounded-tl-none rounded-bl-none !important;
+        }
+        .beautify-primary{
+            @apply border-l-[5px] border-l-blue-600 rounded-tl-none rounded-bl-none !important;
+            }
