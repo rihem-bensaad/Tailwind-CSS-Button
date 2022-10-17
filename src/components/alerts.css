@@ -1,5 +1,5 @@
 .alert {
-    @apply px-[15px] py-[14px];
+    @apply pl-[15px] pr-[40px] py-[14px] relative;
 }
 .alert span {
     @apply capitalize font-semibold text-base;
@@ -32,3 +32,8 @@
         .beautify-primary{
             @apply border-l-[5px] border-l-blue-600 rounded-tl-none rounded-bl-none !important;
             }
+
+.alert-close{
+    @apply absolute top-0 right-0 h-full flex items-center px-3 text-[19px] cursor-pointer 
+
+}
