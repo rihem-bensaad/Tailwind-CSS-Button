@@ -1,0 +1,9 @@
+.label {
+    @apply block mb-2 text-gray-500 capitalize dark:text-gray-300;
+}
+
+.form-control {
+    @apply w-full border-none outline-none bg-[#f7f7f9] py-3 px-4 focus:ring-[3px]
+    ring-gray-200 transition-all duration-500 placeholder:capitalize placeholder:text-gray-400 dark:bg-gray-900
+    dark:text-white dark:ring-gray-600;
+}
