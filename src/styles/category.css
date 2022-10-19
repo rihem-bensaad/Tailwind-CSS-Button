@@ -3,12 +3,12 @@
 }
 
 .category-block {
-    @apply block w-full h-[140px] sm:h-[120px] overflow-hidden rounded-md relative;
+    @apply block w-full h-[140px] sm:h-[120px] overflow-hidden rounded-md relative before:absolute before:inset-0 before:w-full before:h-full before:bg-orange-500 before:z-10 before:scale-0 hover:before:scale-150 before:transition-all before:duration-700 before:rounded-full  hover:before:rounded-none before:origin-top-right;
 }
-.category-layer{
+.category-layer {
     @apply absolute inset-0 w-full h-full  bg-black/60 flex items-center justify-center;
 } 
 
 .category-name {
-    @apply text-white text-lg sm:text-base font-medium capitalize
+    @apply text-white text-lg sm:text-base font-medium capitalize z-20;
 }
