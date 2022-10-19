@@ -1,0 +1,26 @@
+.pricing {
+    @apply py-20;
+}
+
+.pricing-colomun {
+    @apply w-full sm:w-8/12 md:w-7/12 lg:w-5/12 xl:w-4/12 p-6;
+}
+
+.pricing-card{
+    @apply bg-yellow-50 px-10 py-20 rounded-lg  border border-yellow-300 border-dashed
+}
+
+.pricing-heading{
+    @apply text-center uppercase text-xl font-semibold text-orange-700;
+
+}
+
+.pricing-sign {
+    @apply text-2xl mr-2
+}
+.pricing-price {
+    @apply text-gray-700 text-[62px] font-semibold
+}
+.pricing-message {
+    @apply text-base text-gray-700
+}
