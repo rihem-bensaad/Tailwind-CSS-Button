@@ -6,6 +6,7 @@
     @apply flex flex-wrap
 }
 
-.image-cover{
-    
+.image-cover {
+    @apply w-full h-full object-cover 
 }
+

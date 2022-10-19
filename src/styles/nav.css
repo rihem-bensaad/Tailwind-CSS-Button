@@ -20,6 +20,7 @@
 }
 
 .nav-open{
-    @apply fixed top-6 right-6 flex items-center justify-center w-[40px] h-[40px] rounded-full  bg-orange-500 cursor-pointer
+    @apply fixed top-6 right-6 flex items-center justify-center w-[40px] h-[40px] 
+    rounded-full  bg-orange-500 cursor-pointer
 
 }
