@@ -1,0 +1,9 @@
+.header-cusomter-img{
+    @apply w-full h-full object-cover rounded-full;
+}
+.header-list-msg{
+    @apply ml-3 text-xs sm:text-sm font-medium text-orange-800;
+}
+
+
+

@@ -3,4 +3,8 @@
 @import "./components/buttons.css";
 @import "./components/alerts.css";
 @import "tailwindcss/utilities";
+@import "./styles/nav.css";
+@import "./styles/header.css";
+@import "./styles/helper.css"
+
 

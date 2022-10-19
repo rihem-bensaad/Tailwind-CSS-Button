@@ -1,0 +1,11 @@
+.conteiner {
+    @apply max-w-screen-xl mx-auto px-6
+}
+
+.row {
+    @apply flex flex-wrap
+}
+
+.image-cover{
+    
+}
