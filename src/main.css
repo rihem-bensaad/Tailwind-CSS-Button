@@ -5,6 +5,7 @@
 @import "tailwindcss/utilities";
 @import "./styles/nav.css";
 @import "./styles/header.css";
-@import "./styles/helper.css"
+@import "./styles/helper.css";
+@import "./styles/category.css"
 
 

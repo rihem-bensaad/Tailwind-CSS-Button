@@ -1,0 +1,14 @@
+.category {
+    @apply my-10 sm:my-20; 
+}
+
+.category-block {
+    @apply block w-full h-[140px] sm:h-[120px] overflow-hidden rounded-md relative;
+}
+.category-layer{
+    @apply absolute inset-0 w-full h-full  bg-black/60 flex items-center justify-center;
+} 
+
+.category-name {
+    @apply text-white text-lg sm:text-base font-medium capitalize
+}
