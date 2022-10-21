@@ -38,5 +38,8 @@ images.forEach(function(image){
 
 //close lightbox 
 lightbox.addEventListener('click', function(){
+   const idName =  e.target.getAttribute('id')
+   if(idName === 'lightbox'){
     lightbox.classList.remove('scale-100')
+   }
 })
